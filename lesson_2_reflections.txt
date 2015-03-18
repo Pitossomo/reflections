@@ -1,0 +1,4 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When a repository is initialized, the .git directory is created. In other words, the "git init" command creates a hidden directory needed for the future commits to be stored. If there is no previous use of this command, then when we try to run the "git commit" command it will not work.
+
