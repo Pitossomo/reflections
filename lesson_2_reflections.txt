@@ -5,4 +5,11 @@ When a repository is initialized, the .git directory is created. In other words,
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 The working directory is the place on your computer where the .git directory is located (and also the files). On the other hand, repository is the history of the files of a working space that where opted to be under version control. Finally, the staging area is where are the files that were considered needed for the version control to register their status. Then, as soon as it is a option of the user, it is more logical to him, as it is him the one that can choose when to make commits.
- 
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+Even if I change many files to, say, remove a bug, I can add commit them separately by adding one at a time to the staging area and commiting after each addition. Then, we can have a commit for each change on each file, which can be preferred when it comes to having one commit per logical change.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+When I want to make a new version of a code, or a new chapter of a existing game, I can branch it out from the master.
