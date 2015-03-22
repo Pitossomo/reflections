@@ -13,3 +13,7 @@ Even if I change many files to, say, remove a bug, I can add commit them separat
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 When I want to make a new version of a code, or a new chapter of a existing game, I can branch it out from the master.
+
+How do the diagrams help you visualize the branch structure?
+
+The diagram shows the comparison between two branches and the common parent betwen then.
