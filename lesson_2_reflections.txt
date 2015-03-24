@@ -17,3 +17,7 @@ When I want to make a new version of a code, or a new chapter of a existing game
 How do the diagrams help you visualize the branch structure?
 
 The diagram shows the comparison between two branches and the common parent betwen then.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+When merging two branches together we create a new commit which will have all the changes of both parents. That's why the new commit is represented as a node with two or more lines incoming, as it inherits the changes made in all the branches that were merged.
