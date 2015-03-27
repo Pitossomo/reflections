@@ -21,3 +21,7 @@ The diagram shows the comparison between two branches and the common parent betw
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 When merging two branches together we create a new commit which will have all the changes of both parents. That's why the new commit is represented as a node with two or more lines incoming, as it inherits the changes made in all the branches that were merged.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automerging can make easy to spot all the conflicts between 2 versions, and it can reduce the time by adding to the resulting file the changes that provoke no conflict.
