@@ -5,3 +5,7 @@ When I work with files that need to be private, then I should use git locally. O
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 Other colaborators may push changes to your remote repository that you are not interested in, thus being unnecessary to pull this changes. By manually pulling the changes, one can select the branches that will be downloaded to the local repo.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+A branch is used when we want to make changes to a commit  particular (in general, an old one) without compromising the other changes already made. To clone a repository is effective to copying all the history of a repo to another one, and store it locally. Similarly to cloning, to fork a repo is used when the user wants to clone a repo to it's own GitHub account, in opposition to the local storage in cloning. 
